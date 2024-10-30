@@ -32,4 +32,16 @@ Run test again !!
 $npm test
 ```
 
+## 4. Start server
+```
+$node server.js
+```
 
+List of urls
+* http://localhost:3000/users/1
+* http://localhost:3000/users/2
+* http://localhost:3000/users/3
+
+## More ...
+* Add health check GET /healthz
+* Get user data from postgresql database
